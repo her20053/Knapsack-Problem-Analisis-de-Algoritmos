@@ -1,12 +1,8 @@
 # Fuente: https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/
 
-# A naive recursive implementation
-# of 0-1 Knapsack Problem
-
-# Returns the maximum value that
-# can be put in a knapsack of
-# capacity W
-
+'''
+Este codigo es la implenteacion del algoritmo de divide and conquer para el problema de la mochila 0/1.
+'''
 
 def knapSack(W, wt, val, n):
 

@@ -1,6 +1,9 @@
-# This is the memoization approach of
-# 0 / 1 Knapsack in Python in simple
-# we can say recursion + memoization = DP
+# Fuente: https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/
+
+'''
+Este codigo es la implenteacion del algoritmo de programacion dinamica para el problema de la mochila 0/1.
+El algoritmos utiliza la tecnica de memoizacion para evitar la repeticion de subproblemas.
+'''
  
  
 def knapsack(wt, val, W, n, t):
